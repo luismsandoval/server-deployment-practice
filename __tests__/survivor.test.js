@@ -1,7 +1,6 @@
 "use strict";
 
 const { it, expect } = require("@jest/globals");
-const Survivor = require("../src/routes/survivor");
 const supertest = require("supertest");
 const server = require("../src/server");
 const request = supertest(server.app);

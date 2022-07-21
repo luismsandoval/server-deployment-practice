@@ -7,9 +7,9 @@ const { db } = require("./db");
 
 require("./db");
 
-// const hello = (req, res) => {
-//   res.status(200).send("Hello, World");
-// };
+const hello = (req, res) => {
+  res.status(200).send("Hello, World");
+};
 // const notFound = (req, res) => {
 //   res.status(404).send("Not-Found");
 // };
@@ -49,10 +49,10 @@ const app = express();
 app.use(logger);
 app.use(express.json());
 
-// app.get("/", hello);
+app.get("/", hello);
 // app.get("*", notFound);
 app.get("/data", data);
-app.get("person/:name", validator, name);
+app.get("/person/:name", validator, name);
 app.get("/person/", serverError);
 
 // survivor CRUD

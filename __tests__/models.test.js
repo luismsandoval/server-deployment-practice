@@ -1,3 +1,5 @@
+"use strict";
+
 const { db } = require("../src/db");
 
 describe("models", () => {

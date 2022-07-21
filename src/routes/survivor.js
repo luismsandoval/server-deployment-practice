@@ -13,7 +13,7 @@ const createSurvivor = async (req, res) => {
 
   await survivor.save();
 
-  res.status(200).send(survivor);
+  res.status(201).send(survivor);
 };
 
 const listSurvivors = async (req, res) => {

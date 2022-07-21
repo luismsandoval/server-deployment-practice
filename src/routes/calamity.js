@@ -12,7 +12,7 @@ const createCalamity = async (req, res) => {
 
   await calamity.save();
 
-  res.status(200).send(calamity);
+  res.status(201).send(calamity);
 };
 
 const listCalamities = async (req, res) => {
