@@ -1,9 +1,21 @@
-# Server Deployment Practice
+# Server Deployment Practice Lab
 
-## [Test](https://luis-server-deploy-dev.herokuapp.com/)
+## Lab: Express REST API
 
-## [Production](https://luis-server-deploy-prod.herokuapp.com/)
+### Author: Luis Sandoval
 
-## [GitHub Actions](https://github.com/luismsandoval/server-deployment-practice/actions)
+### Collaborators: Jim Doyle, Derek Douglas, Zayah Lang
 
-## [PR](https://github.com/luismsandoval/server-deployment-practice/pull/2)
+### Links
+
+- [Test](https://luis-server-deploy-dev.herokuapp.com/)
+
+- [Production](https://luis-server-deploy-prod.herokuapp.com/)
+
+- [GitHub Actions](https://github.com/luismsandoval/server-deployment-practice/actions)
+
+- [PR](https://github.com/luismsandoval/server-deployment-practice/pull/2)
+
+### Time Estimate
+
+- Total time: approx 6 hours
