@@ -31,7 +31,7 @@ app.use(logger);
 
 app.get("/", hello);
 app.get("/data", data);
-app.get("person/:name", validator, name);
+app.get("/person/:name", validator, name);
 app.get("*", notFound);
 app.get("/person/", serverError);
 
