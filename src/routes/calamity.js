@@ -48,10 +48,10 @@ const deleteCalamity = async (req, res) => {
 const updateCalamity = async (req, res) => {
   await Calamity.update(
     {
-      type: req.query.type,
-      intensity: req.query.intensity,
-      location: req.query.location,
-      date: req.query.date,
+      type: req.body.type,
+      intensity: req.body.intensity,
+      location: req.body.location,
+      date: req.body.date,
     },
     {
       where: {

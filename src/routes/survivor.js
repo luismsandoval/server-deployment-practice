@@ -49,11 +49,11 @@ const deleteSurvivor = async (req, res) => {
 const updateSurvivor = async (req, res) => {
   await Survivor.update(
     {
-      username: req.query.username,
-      birthday: req.query.birthday,
-      strengths: req.query.strengths,
-      weaknesses: req.query.weaknesses,
-      powerLevel: req.query.powerLevel,
+      username: req.body.username,
+      birthday: req.body.birthday,
+      strengths: req.body.strengths,
+      weaknesses: req.body.weaknesses,
+      powerLevel: req.body.powerLevel,
     },
     {
       where: {
